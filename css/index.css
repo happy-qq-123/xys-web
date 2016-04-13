@@ -1,0 +1,330 @@
+*{
+	font-family: 微软雅黑;
+}
+
+/*nav开始*/
+.l-header{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top:0;
+	width: 100%;
+}
+.sm-h{
+	height:50px;
+	background: #fff; 
+	width: 100%;
+	position: relative;
+}
+.sm-h-left{
+	position: absolute;
+	left:30px;
+	top:10px;
+}
+.sm-h-right{
+	position: absolute;
+	right:30px;
+	top:10px;
+	/*float: right;*/
+}
+.search{
+	margin-right:10px; 
+}
+.md-h-left{
+	position: absolute;
+	left: 40px;
+	top:10px;
+}
+.md-h-right{
+	position: absolute;
+	right: 40px;
+	top:20px;
+}
+.md-h{
+	background: #fff;
+	height: 50px;
+}
+.lg-h-left{
+	position: absolute;
+	left: 40px;
+	top:30px;
+}
+.lg-h-right{
+	position: absolute;
+	right: 40px;
+	top:30px;
+}
+.lg-h{
+	background: #fff;
+	height: 80px;
+}
+.l-box{
+	float: left;
+}
+.l-box a{
+	font-size: 20px;
+	color: #666;
+	margin-left:50px;
+	transition:all 1s ease; 
+}
+.l-box a:hover{
+	text-decoration: none;
+	color: green;
+}
+.b-search{
+	padding-right: 30px;
+	background: url(../img/zk.png) no-repeat 85px 8px;
+}
+.b-item{
+	min-height: 300px;
+	background: url(../img/big2.jpg) center 0px;
+	background-size:cover; 
+}
+.b-info{
+	padding-top: 150px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+.b-info-btn a{
+	padding:10px 20px;
+	display: block;
+	background: green; 
+	width:282px ;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:20px;
+	color: #fff; 
+}
+.b-info-btn a:hover{
+	text-decoration: none;
+}
+.l-b{
+	position: relative;
+
+}
+.b-btn-b{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 30px;
+	width: 50px;
+}
+.btn-b-left{
+	cursor:pointer;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	/*background: #fff;*/
+}
+.active{
+	background: #fff;
+	width: 12px;
+	height: 12px;
+	margin-top: -1px;
+}
+.l-btn-left,.l-btn-right{
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	line-height:300px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+
+}
+.l-btn-left{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.l-btn-left:hover{
+	background: linear-gradient(to left,rgba(255,255,255,0.001) 0,rgba(0,0,0,0.5) 100%);
+
+}
+.l-btn-right:hover{
+	background: linear-gradient(to right,rgba(255,255,255,0.001) 0,rgba(0,0,0,0.5) 100%);
+
+}
+.l-btn-right{
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.b-lg .b-item{
+	min-height: 600px;
+}
+.b-lg .b-info{
+	padding-top:220px ;
+	font-size: 40px;
+}
+.b-lg .b-info-btn{
+	margin-top: 60px;
+	font-size: 20px;
+}
+.b-lg .l-btn-left,.b-lg .l-btn-right{
+	line-height: 600px;
+	width: 200px;
+	font-size: 25px;
+}
+/*群组选择器*/
+/*nav结束*/
+/*课程开始*/
+.course-info{
+	display: block;
+	text-align: center;
+	background: green;
+	padding-bottom: 20px;
+}
+.course-info span{
+	padding-top: 20px;
+	display: block;
+	margin-bottom:20px; 
+	font-size: 18px;
+	color: #fff;
+}
+.course-info:hover{
+	background: rgba(0,255,0,0.3);
+	text-decoration: none;
+}
+.co-box{
+	padding: 0;
+}
+.course-info1{
+	background: #ff6700;
+}
+.course-info1:hover{
+	background: #ff6700;
+	opacity:0.5;
+	/*opacity 0 -1 透明度*/
+}
+.works{
+	position: relative;
+	background: #ccc;
+
+}
+.wo-info{
+	width: 100%;
+	height: 30px;
+	line-height:30px ;
+	padding-left: 20px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+
+}
+.in-c{
+	padding: 3px 5px;
+	background: green;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff;
+}
+.w-info{
+	/*width: 32%;*/
+	/*margin-right: 2%;*/
+	margin-bottom:30px; 
+	/*padding: 0;*/
+}
+.jz-w{
+	
+	/*width: 1300px;
+	margin: 0 auto;*/
+}
+/*课程结束*/
+.sm-f{
+	width: 300%;
+}
+.f-item{
+	float: left;
+	width:16.6666667%;
+}
+.aa{
+	padding: 40px 0;
+	width: 100%;
+	overflow: hidden;
+}
+.md-f{
+	width:200%;
+}
+.lg-f{
+	width:150%;
+}
+.lg1-f{
+	width:120%;
+}
+/**/
+.jia{
+	padding: 50px 0;
+	background: #ccc;
+	text-align: center;
+}
+.jia-top{
+	font-size: 18px;
+	margin-bottom: 20px;
+
+}
+.jia-bottom{
+
+	width: 250px;
+	height: 40px;
+	background: green;
+	
+	margin:0 auto;
+	line-height: 40px;
+}
+.jia-bottom a{
+	color: #fff;
+}
+/**/
+.footer{
+	padding: 30px;
+}
+.logo-i{
+	margin-top:10px;
+	line-height: 27px; 
+}
+.kjcd{
+	
+	margin-top:20px;
+	font-size: 18px; 
+}
+.kjcd dt{
+	font-weight: normal;
+}
+.kjcd dd{
+	margin-top:13px; 
+	font-size: 14px;
+}
+.contact{
+	margin-top:20px;
+	font-size: 18px;
+}
+.inp{
+	margin-top:15px;
+	width:200px ;
+	height: 35px; 
+	padding-left: 5px;
+	color: #666;
+
+}
+.btn-g{
+	background: green;
+	color: #fff;
+}
+.btn-g:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
